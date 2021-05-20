@@ -1,0 +1,81 @@
+//Layout
+body {
+  background: #222;
+}
+.snowBall {
+  font: 14px Helvetica; color: #444;
+  width: 80%;
+  margin: 20px auto;
+}
+.snowBallAmount {
+  overflow: hidden;
+  b {
+    padding: 2px 0 0 5px;
+  }
+  input {
+    padding: 4px 0 3px;
+    margin: 0 0 0 5px;
+    font-size: 16px;
+    width: 75px;
+    text-align: center;
+    background: #fff;
+    color: #000;
+  }
+}
+.snowBallAmount, .total {
+  font-size: 22px; color: #fff;
+  padding: 10px;
+  background: #333;
+  b {
+    font-weight: bold;
+  }
+  i {
+    font-weight: bold;
+    float: right;
+  }
+}
+.total {
+  font-size: 16px;
+}
+.table {
+  width: 100%;
+  margin: 0;
+  background: #fff;
+  th {
+    color: #fff;
+    background: #444;
+  }
+  th, td {
+    padding: 10px;
+    border-bottom: 1px #ddd solid;
+    text-align: center;
+  }
+  th:nth-child(1), td:nth-child(1) {
+    text-align: left;
+  }
+  tr:hover {
+    background: rgb(255, 255, 207);
+  }
+  span {
+    padding: 0 0 0 1px;
+    display: inline-block;
+  }
+  .m, .d, .tm, .td {
+    padding: 0 2px 0 0;
+    display: inline-block;
+  }
+}
+span, i {
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0; padding: 0;
+  display: inline-block;
+}
+.total {
+  span {
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 5px;
+  }
+}

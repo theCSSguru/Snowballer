@@ -1,0 +1,88 @@
+body {
+  background: #222;
+}
+
+.snowBall {
+  font: 14px Helvetica;
+  color: #444;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.snowBallAmount {
+  overflow: hidden;
+}
+.snowBallAmount b {
+  padding: 2px 0 0 5px;
+}
+.snowBallAmount input {
+  padding: 4px 0 3px;
+  margin: 0 0 0 5px;
+  font-size: 16px;
+  width: 75px;
+  text-align: center;
+  background: #fff;
+  color: #000;
+}
+
+.snowBallAmount, .total {
+  font-size: 22px;
+  color: #fff;
+  padding: 10px;
+  background: #333;
+}
+.snowBallAmount b, .total b {
+  font-weight: bold;
+}
+.snowBallAmount i, .total i {
+  font-weight: bold;
+  float: right;
+}
+
+.total {
+  font-size: 16px;
+}
+
+.table {
+  width: 100%;
+  margin: 0;
+  background: #fff;
+}
+.table th {
+  color: #fff;
+  background: #444;
+}
+.table th, .table td {
+  padding: 10px;
+  border-bottom: 1px #ddd solid;
+  text-align: center;
+}
+.table th:nth-child(1), .table td:nth-child(1) {
+  text-align: left;
+}
+.table tr:hover {
+  background: #ffffcf;
+}
+.table span {
+  padding: 0 0 0 1px;
+  display: inline-block;
+}
+.table .m, .table .d, .table .tm, .table .td {
+  padding: 0 2px 0 0;
+  display: inline-block;
+}
+
+span, i {
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.total span {
+  font-weight: bold;
+  display: inline-block;
+  padding: 0 5px;
+}

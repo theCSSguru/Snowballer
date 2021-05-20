@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/screen.css" rel="stylesheet">
+  </head>
+<body>
+<div class="container">
+  <div class="snowBall">
+    <div class="snowBallAmount">
+      <b>Snowball Amount</b>
+      <i>Input a Number: $<input type="number" value="2000"></i>
+    </div>
+    <table class="table">
+      <thead>
+        <th>Loans</th>
+        <th>Owed</th>
+        <th>Interest</th>
+        <th>Payment</th>
+        <th>Snowballed</th>
+        <th>Months</th>
+        <th>Total Months</th>
+        <th>Total Paid</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="loan">Credit Card</td>
+          <td class="owed">$<span>4451</span></td>
+          <td class="interest"><span>24</span>%</td>
+          <td class="payment">$<span>0</span></td>
+          <td class="snowballed">$<span></span></td>
+          <td class="month">
+            <span class="months"></span>
+            <span class="days"></span>
+          </td>
+          <td class="totalMonth">
+            <span class="totalMonths"></span>m
+            <span class="totalDays"></span>d
+          </td>
+          <td class="totalPaid">$<span></span></td>
+        </tr>
+        <tr>
+          <td class="loan">Personal Loan</td>
+          <td class="owed">$<span>7752</span></td>
+          <td class="interest"><span>12</span>%</td>
+          <td class="payment">$<span>220</span></td>
+          <td class="snowballed">$<span></span></td>
+          <td class="month">
+            <span class="months"></span>
+            <span class="days"></span>
+          </td>
+          <td class="totalMonth">
+            <span class="totalMonths"></span>m
+            <span class="totalDays"></span>d
+          </td>
+          <td class="totalPaid">$<span></span></td>
+        </tr>
+        <tr>
+          <td class="loan">Gpa Loan</td>
+          <td class="owed">$<span>7815</span></td>
+          <td class="interest"><span>0</span>%</td>
+          <td class="payment">$<span>300</span></td>
+          <td class="snowballed">$<span></span></td>
+          <td class="month">
+            <span class="months"></span>
+            <span class="days"></span>
+          </td>
+          <td class="totalMonth">
+            <span class="totalMonths"></span>m
+            <span class="totalDays"></span>d
+          </td>
+          <td class="totalPaid">$<span></span></td>
+        </tr>
+        <tr>
+          <td class="loan">Car Loan</td>
+          <td class="owed">$<span>13796</span></td>
+          <td class="interest"><span>4</span>%</td>
+          <td class="payment">$<span>384</span></td>
+          <td class="snowballed">$<span></span></td>
+          <td class="month">
+            <span class="months"></span>
+            <span class="days"></span>
+          </td>
+          <td class="totalMonth">
+            <span class="totalMonths"></span>m
+            <span class="totalDays"></span>d
+          </td>
+          <td class="totalPaid">$<span></span></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="total">
+      <b>Total Owed: <span class="totalDebtOwed"></span></b>
+      <b>Total Paid: <span class="totalDebtPaid"></span></b>
+      <div class="pull-right">
+        <span class="totalm"></span>
+        <span class="totald"></span>
+        <span>=</span>
+        <span class="totaly"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="javascripts/app.js"></script>
+
+</body>
+</html>
